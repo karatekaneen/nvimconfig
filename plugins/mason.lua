@@ -28,6 +28,7 @@ return {
     opts = {
       ensure_installed = {
         "python",
+        "delve",
         -- add more arguments for adding more debuggers
       },
     },

@@ -1,4 +1,3 @@
-
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
 -- This guarantees that the specs are processed before any user plugins.
@@ -18,5 +17,8 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.test.nvim-coverage" },
+  { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.recipes.heirline-clock-statusline" },
   -- import/override with your plugins folder
 }

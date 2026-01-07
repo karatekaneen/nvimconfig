@@ -43,6 +43,8 @@ return {
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
       i = {
+        ["ö"] = { "$", desc = "PHP yo" },
+        ["Ö"] = { "->", desc = "PHP yo" },
         ["<C-g>"] = { function() vim.lsp.buf.signature_help() end },
         ["jk"] = { "<Esc>", desc = "Normal mode" },
         ["jj"] = { "<Esc>", desc = "Normal mode" },
